@@ -68,4 +68,31 @@ img {
   height: auto;
 }
 
+.color-negro {
+  color: black;
+}
+
+.menu .menu-lis {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+}
+.menu .menu-lis .menu-item {
+  color: purple;
+}
+.menu .menu-lis .menu-item:hover {
+  color: red;
+}
+
+.tarjetas {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+.tarjeta {
+  background-color: pink;
+  padding: 2rem;
+}
+
 /*# sourceMappingURL=main.css.map */
