@@ -1,0 +1,17 @@
+.menu {
+    
+    .menu-lis{
+            display:flex;
+            gap: 1rem;
+            list-style-type: none;
+
+            .menu-item {
+                    color: purple;
+            &:hover {
+                    color: red;
+            }
+
+            
+            }
+        }
+    }

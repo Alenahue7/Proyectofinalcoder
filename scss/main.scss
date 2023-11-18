@@ -1,126 +1,47 @@
-
     @import "./partials/variables";
-    @import"./partials/header";
-    @import"./partials/tarjeta";
-    
+    @import "./partials/header";
+    @import "./partials/tarjeta";
+    @import "./partials/transitions.scss";
+    @import "./partials/box.scss";
+    @import "./partials/cuadro.scss";
+    @import "./partials/reset.scss";
+    @import "./partials/body.scss";
+    @import "./partials/menu.scss";
+    @import "./partials/section.scss";
+    @import "./partials/menu.scss";
+    @import "./partials/grid.scss";
+    @import "./partials/mediascreen.scss";
 
-    transition: all 0.3s; 
-    font-style: italic; /* Aplica un estilo de fuente cursiva */
-    font-family: "cursive-font", cursive; /* Opcional: especifica una fuente cursiva específica */
-}
-
-.cuadro:hover {
-    transform: scale(1.2);
-    background-color: #00ff00; /* Cambia el color de fondo a verde al pasar el mouse por encima */
-    font-style: italic; /* Aplica un estilo de fuente cursiva */
-    font-family: "cursive-font", cursive; /* Opcional: especifica una fuente cursiva específica */
- 
-}
-
-
-
-.box {
-    width: 100px;
-    height: 100px;
-    background-color: #3498db;
-    transition: all 0.3s; 
-}
-
-
-.box:hover {
-    background-color: #e74c3c;
-}
-
-
-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px; 
-    border: 1px solid #ccc; 
-}
-
-
-#grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    grid-gap: 20px; 
-}
-
-
-#grid-container > * {
-    border: 1px solid #ccc;
-    padding: 10px;
-}
-
-
-
-body {
-    background-image: url(../images/libros.jpg); 
-    background-size: cover;
-    color: white;
-    font-weight: bold;
-    text-align: justify;
-    margin: 10px; 
-    padding: 5px; 
-    border: 1px solid #RRGGBB;
-    position: relative; 
-    display: block; 
-
-
-
-}
+   
 
 
 
 
-a {
-    color: yellow;
-    font-weight: bold;
- }
 
 
 
-@media screen and (max-width: 600px) {
-    
-}
-
-@media screen and (min-width: 601px) and (max-width: 1024px) {
-    
-}
-
-@media screen and (min-width: 1025px) {
-    
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
 
 
 
-.color-negro {
-  color: black; 
-}
 
 
-.menu {
-    
-    .menu-lis{
-            display:flex;
-            gap: 1rem;
-            list-style-type: none;
 
-            .menu-item {
-                    color: purple;
-            &:hover {
-                    color: red;
-            }
 
-            
-            }
-        }
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

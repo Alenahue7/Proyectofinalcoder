@@ -1,98 +1,17 @@
-@charset "UTF-8";
-cuadro {
-  width: 200px;
-  height: 200px;
-  background-color: #ff0000;
-  transition: all 0.3s;
-  font-style: italic; /* Aplica un estilo de fuente cursiva */
-  font-family: "cursive-font", cursive; /* Opcional: especifica una fuente cursiva específica */
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 |     @import "./partials/variables";
+ *   |             ^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   scss\main.scss 1:13  root stylesheet */
 
-.cuadro:hover {
-  transform: scale(1.2);
-  background-color: #00ff00; /* Cambia el color de fondo a verde al pasar el mouse por encima */
-  font-style: italic; /* Aplica un estilo de fuente cursiva */
-  font-family: "cursive-font", cursive; /* Opcional: especifica una fuente cursiva específica */
-}
-
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: #3498db;
-  transition: all 0.3s;
-}
-
-.box:hover {
-  background-color: #e74c3c;
-}
-
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  border: 1px solid #ccc;
-}
-
-#grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-}
-
-#grid-container > * {
-  border: 1px solid #ccc;
-  padding: 10px;
-}
-
-body {
-  background-image: url(../images/libros.jpg);
-  background-size: cover;
-  color: white;
-  font-weight: bold;
-  text-align: justify;
-  margin: 10px;
-  padding: 5px;
-  border: 1px solid #RRGGBB;
-  position: relative;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
   display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502      @import \"./partials/variables\";\d\a   \2502              ^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\main.scss 1:13  root stylesheet";
 }
-
-a {
-  color: yellow;
-  font-weight: bold;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.color-negro {
-  color: black;
-}
-
-.menu .menu-lis {
-  display: flex;
-  gap: 1rem;
-  list-style-type: none;
-}
-.menu .menu-lis .menu-item {
-  color: purple;
-}
-.menu .menu-lis .menu-item:hover {
-  color: red;
-}
-
-.tarjetas {
-  display: flex;
-  gap: 1rem;
-  list-style-type: none;
-}
-
-.tarjeta {
-  background-color: pink;
-  padding: 2rem;
-}
-
-/*# sourceMappingURL=main.css.map */

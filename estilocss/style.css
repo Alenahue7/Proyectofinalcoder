@@ -57,7 +57,7 @@ section {
 
 
 body {
-    background-image: url(../images/libros.jpg); 
+    background-color: black; 
     background-size: cover;
     color: white;
     font-weight: bold;
